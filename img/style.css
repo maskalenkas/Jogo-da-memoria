@@ -10,12 +10,6 @@ body {
     background-color: black;
 }
 
-/*
-
-Wrapper
-
-*/
-
 .memory-game {
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +20,7 @@ Wrapper
 }
 
 
-/* Pai de card-front/card-back */
+
 .card {
     position: relative;
     height: calc( 33.333% - 10px );
@@ -40,7 +34,7 @@ Wrapper
     transition: transform .9s;
 }
 
-/* Animação da carta */
+
 .card:active {
     transform: scale(0.97);
     transition: transform .3s;

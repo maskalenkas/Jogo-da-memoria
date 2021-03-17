@@ -3,7 +3,7 @@ let hasFlippedCard = false
 let firstCard, secondCard
 let lockBoard = false
 
-/* Comparando as cartas. Sempre vai começar com false */
+
 function flipCard() {
     if (lockBoard) return
     if (this === firstCard) return /* Bloqueando o clique duplo */
@@ -57,7 +57,7 @@ function unflipCards() {
 }
 
 function resetBoard() {
-    [hasFlippedCard, lockBoard] = [false, false] /* Setando no indice 0 e 1 o valor false */
+    [hasFlippedCard, lockBoard] = [false, false]
     [firstCard, secondCard] = [null, null]
 }
 
